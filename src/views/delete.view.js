@@ -1,1 +1,8 @@
-// A rota vai bater aqui e chamar uma função do controller, mandando o objeto request
+import express from "express";
+import deleteLawyer from "../controller/delete.controller";
+
+const deleteView = express.Router();
+
+deleteView.delete("/delete_lawyer/:id", deleteLawyer);
+
+export default deleteView;
