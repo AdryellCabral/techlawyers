@@ -15,6 +15,7 @@ const LawyerSchema = new mongoose.Schema({
     type: String,
     required: true,
     max: 100,
+    unique: true,
   },
   phone_number: {
     type: String,
