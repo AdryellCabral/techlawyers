@@ -2,7 +2,9 @@ import Lawyer from "../models/lawyer.model";
 
 const createLawyer = async (req, res) => {
   try {
-    if (Lawyer.find({ name: req.body.name })) {
+    const finded = await Lawyer.find({ email: req.body.email });
+
+    if (finded.length) {
       return res.status(400).send({ error: "Email already in use!" });
     }
 
