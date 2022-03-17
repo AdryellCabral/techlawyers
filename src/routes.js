@@ -1,10 +1,12 @@
 import express from "express";
-import createLawyer from "./controller/create.controller";
-import readLawyers from "./controller/read.controller";
+import createView from "./views/create.view";
+import deleteView from "./views/delete.view";
+import readView from "./views/read.view";
 
 const appRouter = express.Router();
 
-appRouter.post("/", createLawyer);
-appRouter.get("/", readLawyers);
+appRouter.use("/", createView);
+appRouter.use("/", readView);
+appRouter.use("/", deleteView);
 
 export default appRouter;
