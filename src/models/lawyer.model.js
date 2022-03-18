@@ -1,11 +1,6 @@
 import mongoose from "../database";
 
 const LawyerSchema = new mongoose.Schema({
-  before_name: {
-    type: String,
-    required: true,
-    max: 3,
-  },
   name: {
     type: String,
     required: true,
@@ -27,7 +22,7 @@ const LawyerSchema = new mongoose.Schema({
     required: true,
     max: 2,
   },
-  oab_num: {
+  oab_number: {
     type: String,
     required: true,
     max: 8,
