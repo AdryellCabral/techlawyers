@@ -268,3 +268,16 @@ Backend de um app para cadastrar advogados.
 	}
 ]
 ```
+
+
+### Pontos de melhoria
+
+> Por falta de tempo não foi possível fazer tudo o que eu queria ter feito.
+
+- Validação dos dados do request com Yup e middlewares para gerenciar isso
+- Testes unitáirios
+- Deploy no heroku para o front funcionar independente
+- Arquivos melhor estruturados
+- Usar as views para retornar para páginas
+- Nomes mais descritivos
+
