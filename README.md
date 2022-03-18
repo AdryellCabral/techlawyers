@@ -62,7 +62,6 @@ yarn dev
 
 ```json
 {
-	"before_name": "Sr.",
 	"name": "Saul Goodman",
 	"email": "bettercallsaul@email.com",
 	"phone_number": "31984578453",
@@ -76,7 +75,6 @@ yarn dev
 ```json
 {
 	"user": {
-		"before_name": "Sr.",
 		"name": "Saul Goodman",
 		"email": "bettercallsaul@email.com",
 		"phone_number": "31984578453",
@@ -112,7 +110,6 @@ yarn dev
 ```json
 [
     {
-		"before_name": "Sr.",
 		"name": "Saul Goodman",
 		"email": "bettercallsaul@email.com",
 		"phone_number": "31984578453",
@@ -139,7 +136,6 @@ yarn dev
 
 ```json
 {
-	"before_name": "Sr.",
 	"name": "Saul Goodman",
 	"email": "bettercallsaul@email.com",
 	"phone_number": "31984578453",
@@ -202,7 +198,6 @@ yarn dev
 [
 	{
 		"_id": "6233c502b80b657853815298",
-		"before_name": "Sr.",
 		"name": "bAdryell Cabral primeirissimo",
 		"email": "adryeaaaaaaaaaaaaall@mail.com",
 		"phone_number": "31984578453",
@@ -213,7 +208,6 @@ yarn dev
 	},
 	{
 		"_id": "6233c4a7b80b657853815291",
-		"before_name": "Sr.",
 		"name": "Adryell Cabral primeirissimo",
 		"email": "adryeaaaaaaaaaaaall@mail.com",
 		"phone_number": "31984578453",
@@ -224,7 +218,6 @@ yarn dev
 	},
 	{
 		"_id": "6233c4545b5f8d5802babbbf",
-		"before_name": "Sr.",
 		"name": "Adryell Cabral primeiro",
 		"email": "adryeaaaaaaaaaaall@mail.com",
 		"phone_number": "31984578453",
@@ -235,7 +228,6 @@ yarn dev
 	},
 	{
 		"_id": "6233c4445b5f8d5802babbbb",
-		"before_name": "Sr.",
 		"name": "Adryell Cabral",
 		"email": "adryeaaaaaaaaaall@mail.com",
 		"phone_number": "31984578453",
@@ -246,7 +238,6 @@ yarn dev
 	},
 	{
 		"_id": "6233c1ec1ea131b0f542ca44",
-		"before_name": "Sr.",
 		"name": "Adryell Cabral alterado denovo",
 		"email": "adryell@mail.com",
 		"phone_number": "31984578453",
@@ -276,7 +267,6 @@ yarn dev
 [
     {
 		"_id": "6233c4545b5f8d5802babbbf",
-		"before_name": "Sr.",
 		"name": "Adryell Cabral primeiro",
 		"email": "adryeaaaaaaaaaaall@mail.com",
 		"phone_number": "31984578453",
@@ -287,7 +277,6 @@ yarn dev
 	},
 	{
 		"_id": "6233c502b80b657853815298",
-		"before_name": "Sr.",
 		"name": "bAdryell Cabral primeirissimo",
 		"email": "adryeaaaaaaaaaaaaall@mail.com",
 		"phone_number": "31984578453",
@@ -308,7 +297,7 @@ yarn dev
 - Testes unitáirios
 - Deploy no heroku para o front funcionar independente
 - Arquivos melhor estruturados
-- Usar as views para retornar para páginas
+- Usar as views para redirecionar para páginas (no caso de front e back no mesmo app)
 - Nomes mais descritivos
 - Usar o Multer para receber foto de perfil no cadastro
 - Mandar email de confirmação de cadastro com o nodemail
