@@ -8,6 +8,36 @@ Backend de um app para cadastrar advogados.
 
 </br>
 
+## Rodando a aplicação
+
+### IMPORTANTE!
+> É necessário ter o mongodb instalado e rodando na sua máquina. Certifique-se de que o serviço dele está ativo com o seguinte comando:
+
+```Shell
+sudo service mongod status
+```
+
+> Para rodar a aplicação é necessário insalar as dependências, criar o arquivo .env como indica o .env.example e rodar com o comando 'yarn dev'
+
+- Depois de clonar o projeto, dentro da pasta dele instale as dependências:
+
+```Shell
+yarn
+```
+
+- Com as dependências instaladas, crie o arquivo .env:
+
+```Shell
+cp .env.example .env
+```
+> Como a url para o banco de dados é o mongo rodando localmente, pode somente clonar o arquivo.
+
+- Agora rode a aplicação:
+
+```Shell
+yarn dev
+```
+
 ## Tecnologias:
 
 - Linguagem:
@@ -280,4 +310,5 @@ Backend de um app para cadastrar advogados.
 - Arquivos melhor estruturados
 - Usar as views para retornar para páginas
 - Nomes mais descritivos
-
+- Usar o Multer para receber foto de perfil no cadastro
+- Mandar email de confirmação de cadastro com o nodemail
