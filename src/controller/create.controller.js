@@ -12,7 +12,7 @@ const createLawyer = async (req, res) => {
 
     user.save();
 
-    return res.send({ user });
+    return res.status(201).send({ user });
   } catch (err) {
     return res.status(400).send({ error: "Registration failed!" });
   }
